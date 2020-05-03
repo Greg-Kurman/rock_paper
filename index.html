@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>JavaScript on steroids</title>
+</head>
+<body>
+    <div class="container-1">
+      <h2> Твой возраст в днях!</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class=" btn btn-primary" onclick="ageInDays()"> Кликни сюда </button>
+            </div>
+                  
+            <div>
+                <button class=" btn btn-danger" onclick="reset()"> Перезагрузка</button>
+            </div>
+        </div>
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+    <div class="container-2">
+            <h2>КОТО-Генератор</h2>
+            <button class="btn btn-success " id="cat-generator" onclick="generateCat()" >Создать кота</button>
+            <div class="flex-box-container-2" id="cats">
+
+            </div>
+    </div>
+
+    <div class="container-3">
+            <h2>Камень, ножницы, бумага! Против бота. </h2>
+            <div class="flex-box-rps" id="flex-box-rps-div">
+                <img height="150px" id="rock"  src="https://cdn.lmbd.ru/8c58eb81-05b4-4ae8-ac51-97444d417773/" alt="" onclick="rpsGame(this)">
+                <img  height="150px" id="paper" src="https://artkvartal.ru/upload/iblock/19a/4_200_2.jpg" alt="" onclick="rpsGame(this)">
+                <img height="150px"  id="scissors" src="https://skomplekt.com/image/cache/files/product_6385/main_img_p6385_-600x600.jpg" alt="" onclick="rpsGame(this)">
+            </div>
+    </div>
+
+    <div class="container-2">
+        <h2 id="change-my-color">Изменение цвета всех кнопок!</h2>
+        <div class="flex-box-pick-color" style="display: flex; justify-content: center; align-items: center;">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Случайный</option>
+                    <option value="red">Красный</option>
+                    <option value="green">Зеленый</option>
+                    <option value="reset">Перезагрузка</option>
+                
+                </select>
+                
+            </form>
+
+            <button class=" btn btn-primary">wee!</button>
+            <button class=" btn btn-danger">Yahoo!</button>
+            <button class=" btn btn-warning">Google!</button>
+            <button class=" btn btn-success">Facebook</button>
+        </div>
+    </div>
+
+    
+
+
+ <script src="main.js"></script>
+
+    
+</body>
+</html>

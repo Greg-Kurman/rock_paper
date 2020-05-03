@@ -1,0 +1,102 @@
+.container-1 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    
+
+
+}
+
+.flex-box-container-1, .flex-blackjack-row, .flex-blackjack-row2 {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.container-2 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.flex-box-container-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+
+.flex-box-container-2 img {
+    height: 100px;
+    display: flex;
+    margin: 0 10px;
+    box-shadow: 0px 10px 20px black;
+
+}
+.flex-box-rps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-box-rps img:hover {
+    border: 5px dotted red;
+}
+
+
+.container-3 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.flex-box-pick-color button {
+    margin: 15px 20px;
+}
+
+
+.flex-blackjack-row, .flex-blackjack-row2 {
+    background: url('http://nashpoker.net/alldata/images/Sukno_dlja_pokernogo_stola_kriptonit.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
+.flex-blackjack-row div {
+    flex: 1 0;
+    height: 522px;
+    border: 1px solid white;
+    width: 400px;
+}
+
+.flex-blackjack-row2 button {
+    box-shadow: 0px 10px 20px black;
+    
+}
+
+.flex-blackjack-row3 table {
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+table th  {
+    padding: 5px;
+    border: 1px solid black;
+}
